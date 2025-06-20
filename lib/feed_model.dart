@@ -12,7 +12,7 @@ class FeedModel {
     String? id,
     required this.contents,
     required this.images,
-    DateTime? createdAt,
+    DateTime? createdAt, //예시
   })  : id = id ?? Uuid().v4(),
         createdAt = createdAt ?? DateTime.now();
 
